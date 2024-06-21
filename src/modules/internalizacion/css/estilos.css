@@ -1,0 +1,322 @@
+label {
+    margin: 10px !important;
+}
+
+/* Sidebar del Main4 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Fixed sidenav, full height */
+p.geor {font-family: georgia;}
+
+h4.peque {font-size: small;}
+
+h4.medio {font-size:medium;}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    max-width: 40%;
+    max-height: 40%;
+   }
+
+.sidenav {
+    height: 90%;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    /*top: 0;
+    left: 0;*/
+    /*background-color: rgb(101, 206, 238);*/
+    overflow-x: hidden;
+    /*padding-top: 38px;*/
+}
+
+/* Style the sidenav links and the dropdown button */
+
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #666666;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+    background-color: rgb(101, 188, 238);
+}
+
+.linkVer{
+    
+    background-color: #37c3dd;
+    border: none;
+    color: white;
+    
+    border-bottom: 5px solid #1d798a;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px #999;
+
+    /*border-radius: 6px;*/
+    padding: 6px 18px;
+    width: 50px;
+    text-align: center;
+
+    font-size: 12px;
+    max-width: 80px;
+    width: 80%;
+
+}
+
+.linkVer:hover {
+    background-color: #164284;
+    color: #ffff;
+    
+    
+    border-bottom: 5px solid #052657;
+    border-radius: 12px;
+}
+
+.btnNaranja{
+    
+    background-color: #37c3dd;
+    border: none;
+    color: white;
+    
+    border-bottom: 5px solid #1d798a;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px #999;
+
+    /*border-radius: 6px;*/
+    padding: 6px 18px;
+    width: 50px;
+    text-align: center;
+
+    font-size: 14px;
+    max-width: 100px;
+    width: 100%;
+
+}
+
+.btnNaranja:hover {
+    background-color: #164284;
+    color: #ffff;
+    
+    
+    border-bottom: 5px solid #052657;
+    border-radius: 12px;
+}
+
+.btnRespaldoVer{
+    
+    background-color: #164284;
+    border: none;
+    color: white;
+    
+    border-bottom: 5px solid #052657;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px #999;
+
+    /*border-radius: 6px;*/
+    padding: 6px 21px;
+    width: 80px;
+    text-align: center;
+
+    font-size: 12px;
+    max-width: 100px;
+    width: 100%;
+
+}
+
+.btnRespaldoVer:hover {
+    background-color: #7d7e80;
+    color: #010101;
+    
+    
+    border-bottom: 5px solid #454546;
+    border-radius: 12px;
+}
+
+.btnRespaldoD{
+    
+    background-color: #37c3dd;
+    border: none;
+    color: black;
+    
+    border-bottom: 5px solid #1d798a;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px #999;
+
+    /*border-radius: 6px;*/
+    padding: 6px 19px;
+    width: 80px;
+    text-align: center;
+
+    font-size: 12px;
+    max-width: 100px;
+    width: 100%;
+
+}
+
+.btnRespaldoD:hover {
+    background-color: #164284;
+    color: #f1f1f1;
+    
+    
+    border-bottom: 5px solid #052657;
+    border-radius: 12px;
+}
+
+.btnRespaldo{
+    
+    background-color: #f9d14e;
+    border: none;
+    color: #164284;
+    
+    border-bottom: 5px solid #69530b;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px #999;
+
+    /*border-radius: 6px;*/
+    padding: 6px 19px;
+    width: 80px;
+    text-align: center;
+
+    font-size: 12px;
+    max-width: 100px;
+    width: 100%;
+
+}
+
+.btnRespaldo:hover {
+    background-color: #164284;
+    color: #f1f1f1;
+    
+    
+    border-bottom: 5px solid #052657;
+    border-radius: 12px;
+}
+
+.btnAccion{
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    
+    border-bottom: 5px solid #105c12;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px #999;
+
+    /*border-radius: 6px;*/
+    padding: 6px 8px;
+    width: 50px;
+    text-align: center;
+
+    font-size: 12px;
+    max-width: 80px;
+    width: 80%;
+
+}
+
+.btnAccion:hover {
+    background-color: #164284;
+    color: #f1f1f1;
+    
+    
+    border-bottom: 5px solid #052657;
+    border-radius: 12px;
+}
+
+/* Main content */
+
+.main {
+    margin-left: 200px;
+    /* Same as the width of the sidenav */
+    font-size: 15px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Some media queries for responsiveness */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* collapse del Main4//////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.select-css {
+    display: block;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    color: #444;
+    line-height: 1.3;
+    padding: .4em 1.4em .3em .8em;
+    width: 400px;
+    max-width: 100%; 
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.03);
+    border-radius: .3em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #ffffff 0%,#f7f7f7 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+   }
+   .select-css::-ms-expand {
+    display: none;
+   }
+   .select-css:hover {
+    border-color: #888;
+   }
+   .select-css:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+   }
+   .select-css option {
+    font-weight:normal;
+   }
